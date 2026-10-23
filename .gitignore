@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.pgdata/
+.expo/
+backend/src/generated/
+*.log
+mobile/ayaan-kazi/
+mobile/ayaan-kazi/
+mobile/ayaan-kazi/

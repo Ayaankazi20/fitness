@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "FitScan AI", "slug": "fitscan-ai", "version": "1.0.0", "orientation": "portrait",
+    "userInterfaceStyle": "automatic", "scheme": "fitscan",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.example.fitscan", "infoPlist": { "NSCameraUsageDescription": "FitScan uses the camera to photograph your meals.", "NSPhotoLibraryUsageDescription": "FitScan reads photos you choose so it can analyze your meals." } },
+    "android": { "package": "com.example.fitscan", "permissions": ["CAMERA"] },
+    "plugins": [
+      ["expo-camera", { "cameraPermission": "FitScan uses the camera to photograph your meals." }],
+      ["expo-image-picker", { "photosPermission": "FitScan reads photos you choose so it can analyze your meals." }],
+      "expo-secure-store"
+    ]
+  }
+}

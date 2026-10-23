@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "NodeNext", "moduleResolution": "NodeNext",
+    "strict": true, "noUncheckedIndexedAccess": true, "noImplicitOverride": true,
+    "esModuleInterop": true, "skipLibCheck": true, "resolveJsonModule": true,
+    "outDir": "dist", "rootDir": ".", "types": ["node"], "noEmit": false
+  },
+  "include": ["src", "tests", "prisma.config.ts", "vitest.config.ts"]
+}
